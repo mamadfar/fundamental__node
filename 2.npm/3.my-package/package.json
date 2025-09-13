@@ -1,0 +1,23 @@
+{
+  "name": "@mamadfar/test1",
+  "version": "0.0.3",
+  "description": "My first npm package - test",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Mohammad Farhadi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.3.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
