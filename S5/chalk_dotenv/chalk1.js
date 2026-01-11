@@ -1,0 +1,30 @@
+console.clear()
+
+import chalk from 'chalk'
+
+console.log(chalk.blue('Hello world!'))
+console.log(chalk.red('Hello world!'))
+console.log(chalk.blue("Hello") + ' world' + chalk.red("!"))
+
+console.log(chalk.red.bgWhite("Hello World!"))
+console.log(chalk.red.bold("Hello World!"))
+console.log(chalk.red.bold.italic("Hello World!"))
+console.log(chalk.red('Hello', chalk.blue('world') + '!'))
+console.log(chalk.blue('hello', 'world', '!', '\n'))
+
+console.log(chalk.black.bgWhite("Hello World!"))
+console.log(chalk.red("Hello World!"))
+console.log(chalk.green("Hello World!"))
+console.log(chalk.yellow("Hello World!"))
+console.log(chalk.blue("Hello World!"))
+console.log(chalk.magenta("Hello World!"))
+console.log(chalk.cyan("Hello World!"))
+console.log(chalk.white("Hello World!"))
+console.log(chalk.blackBright("Hello World!"))
+console.log(chalk.redBright("Hello World!"))
+console.log(chalk.greenBright("Hello World!"))
+console.log(chalk.yellowBright("Hello World!"))
+console.log(chalk.blueBright("Hello World!"))
+console.log(chalk.magentaBright("Hello World!"))
+console.log(chalk.cyanBright("Hello World!"))
+console.log(chalk.whiteBright("Hello World!"))
