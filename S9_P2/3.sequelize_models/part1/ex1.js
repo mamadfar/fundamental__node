@@ -1,6 +1,6 @@
 import { DataTypes } from "@sequelize/core";
 
-import sequelize from "./db.js";
+import sequelize from "../db.js";
 
 const User = sequelize.define('User', {
     firstname: DataTypes.STRING,

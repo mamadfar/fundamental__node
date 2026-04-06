@@ -1,6 +1,6 @@
 import { DataTypes } from "@sequelize/core";
 
-import sequelize from "./db.js";
+import sequelize from "../db.js";
 
 const Book = sequelize.define('Book', {
     //? We can only have one auto-increment field, when we define it, ORM won't create id field as primary key

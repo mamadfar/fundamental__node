@@ -1,6 +1,6 @@
 import { DataTypes } from "@sequelize/core";
 
-import sequelize from "./db.js";
+import sequelize from "../db.js";
 
 const Book = sequelize.define('Book', {
     //? SMALLINT is a 2-byte integer that can store values from -32768 to 32767.
