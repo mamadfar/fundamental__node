@@ -21,6 +21,8 @@ const User = sequelize.define("User", {
         type: DataTypes.SMALLINT,
         allowNull: false,
     }
+}, {
+    // paranoid: true,
 })
 
 export default User;
